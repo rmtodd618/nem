@@ -20,21 +20,21 @@ We currently support with Runner two options for deploying NEM on a VM to get yo
 ### Installation Process
 
 1. Log into **runner.ctl.io**.
-2. Search for **NEM** in the Public Products section then click on it
-  ![Search NEM](../images/BaaS/nem1.png)
+2. Search for **NEM** in the Public Products section then click on NEM
+  ![Search NEM](images/nem1.png)
 3. Click on run button
-  ![Click on Run](../images/BaaS/nem2.png)
+  ![Click on Run](images/nem2-1.png)
 4. Choose the Datacenter you want to deploy a server to, CPU, and RAM. Recommend 2 CPU and 4 GB RAM
-  ![Config Server](../images/BaaS/nem3.png)
+  ![Config Server](images/nem3.png)
 5. It is now building your server and you should be able to hit the {new servers ip}:8989 in a web browser
 
 ### Running and Configuring a Supernode
 
 1. cd into /opt/NEM/servant
 2. vi config.properties 
-3. You need to edit the following 
-     nem.host = <put vps ip address here>
-     servant.key = <put your NIS boot key here>
+3. You need to edit the following and enter in your ip and NIS key
+    * nem.host = <put vps ip address here>
+    * servant.key = <put your NIS boot key here>
 4. service servant start
 
 
