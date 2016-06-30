@@ -15,6 +15,11 @@ We currently support with Runner two options for deploying NEM on a VM to get yo
 
 ### Prerequisites
 * A CenturyLink Cloud Account
+ * This job will add a publicIP for you with the following ports opened
+             - 7890
+              - 7880
+              - 7778
+              - 22
 * A network existing in the Datacenter you want to deploy to. Run the network builder Runner job.
 
 ### Installation Process
