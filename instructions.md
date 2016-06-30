@@ -15,7 +15,7 @@ We currently support with Runner two options for deploying NEM on a VM to get yo
              - 7890
               - 7880
               - 7778
-              - 22
+              - 22 ( recommend removing this once you setup your vpn client )
 2. Is an option to deploy NEM to an Ubuntu 14 server that has been put into the CLC inventory and is already stood up.
 
 ### Prerequisites
