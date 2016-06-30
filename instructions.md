@@ -11,15 +11,15 @@
 We currently support with Runner two options for deploying NEM on a VM to get you up and running quickly.
 
 1. Is an option to build a Ubuntu 14 server in the Data Center of your choice and deploy NEM upon it.
-2. Is an option to deploy NEM to an Ubuntu 14 server that has been put into the CLC inventory and is already stood up.
-
-### Prerequisites
-* A CenturyLink Cloud Account
- * This job will add a publicIP for you with the following ports opened
+  * This job will add a publicIP for you with the following ports opened
              - 7890
               - 7880
               - 7778
               - 22
+2. Is an option to deploy NEM to an Ubuntu 14 server that has been put into the CLC inventory and is already stood up.
+
+### Prerequisites
+* A CenturyLink Cloud Account
 * A network existing in the Datacenter you want to deploy to. Run the network builder Runner job.
 
 ### Installation Process
