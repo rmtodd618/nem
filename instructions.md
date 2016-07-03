@@ -21,6 +21,7 @@ We currently support with Runner two options for deploying NEM on a VM to get yo
 ### Prerequisites
 * A CenturyLink Cloud Account
 * A network existing in the Datacenter you want to deploy to. Run the network builder Runner job.
+* Currently this does not work in the GB3 datacenter
 
 ### Installation Process
 
